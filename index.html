@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Cadastro de vendas</h2>
+            <button id="criar">Criar</button>
+        </div>
+
+        <div class="table">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="nome-produto">Nome do produto</th>
+                        <th class="quantidade">Quantidade</th>
+                        <th class="valor">Valor</th>
+                        <th>Operações</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="container-caixa" id="create-container">
+        <div class="caixa">
+            <form>
+                <label>Nome do produto</label>
+                <input id="nome-produto" type="text" required />
+
+                <label>Quantidade</label>
+                <input id="quantidade" type="number" required />
+
+                <label>Valor</label>
+                <input id="valor" type="number" required />
+                <button type="button" id="gravar">Gravar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
