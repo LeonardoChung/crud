@@ -45,7 +45,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
             <td>${row.quantidade}</td>
             <td>${row.valor}</td>
             <td class="operations">
-                <span class="operations-text">Operações</span>
                 <button class="update-button">Atualizar</button>
                 <button class="delete-button">Excluir</button>
             </td>
